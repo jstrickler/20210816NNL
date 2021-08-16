@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+# \uXXXX \UXXXXXXXX \N{CHAR_NAME}
 print('26\u00B0')  # <1>
 print('26\N{DEGREE SIGN}')  # <2>
 print(r'26\u00B0\n')  # <3>
@@ -12,3 +13,4 @@ print()
 data = ['\U0001F95A', '\U0001F414']  # <5>
 print("unsorted:", data)
 print("sorted:", sorted(data))
+
