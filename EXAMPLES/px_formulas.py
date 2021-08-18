@@ -8,7 +8,7 @@ def main():
 
     add_age_at_inauguration(ws)
 
-    wb.save('presidents2.xlsx')
+    wb.save('presidents_formula.xlsx')
 
 def add_age_at_inauguration(ws):
     """Add a new column with age of inauguration"""
